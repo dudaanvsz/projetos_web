@@ -1,27 +1,34 @@
-.video-contanier {
-    position:relative;
-    width: 640px;
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(227, 227, 224, 0.705);
+    min-height: 100vh;
 }
-.video {
-    width: 100%;
-    height: auto;
-}
-.controls{
-    background-color: rgb(118, 194, 245);
-    color: rgb(202, 144, 250);
+form{
+    background-color: white;
     padding: 30px;
-    display:flex;
-    align-items:center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 640%;
-
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
 }
-.controls button, .controls input{
-    margin-right: 10px;
+label{
+    display:block;
+    margin-bottom: 5px;
 }
-video{
- width: 100%;
- height: auto;
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    background-color: rgb(27, 218, 78);
+    color: rgb(38, 36, 36);
+    padding: 12px 20px; /*12px altura e 20px laterais*/
+    border: none; /*sem borda*/
 }
