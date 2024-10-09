@@ -1,0 +1,145 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #dbdbdb;
+    color: #333;
+}
+
+
+/* Cabeçalho */
+header {
+    background-color: #ebe7e7;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.produtos img:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+header .logo h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Banner */
+.banner {
+    background-color: #ddd;
+    padding: 50px;
+    text-align: center;
+    color: #333;
+}
+
+.banner h2 {
+    font-size: 40px;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+/* Seção de Produtos */
+.produtos {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+
+}
+
+.produtos h2 {
+    margin-bottom: 30px;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produto-item {
+    margin: 20px;
+    text-align: center;
+}
+
+.produto-item img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.produto-item p {
+    margin: 5px 0;
+}
+
+/* Seção Sobre */
+.sobre {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.sobre p {
+    font-size: 18px;
+}
+
+/* Mapa de Localização */
+.localizacao {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.map {
+    height: 400px;
+    width: 100%;
+}
+
+/* Seção de Contato */
+.contato {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contato .social-media a {
+    margin: 0 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
