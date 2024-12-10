@@ -1,0 +1,16 @@
+.background-transition{
+    background-color: blue;
+    color: #fff;
+    width: 200px;
+    height: 100px;
+    display:flex ;
+    justify-content: center; /*centraliza horizontal*/
+    align-content: center; /*centraliza vertical*/
+    flex-wrap: wrap; /*quebra de linha*/
+    transition: background-color 0.8s ease-in; /*tempo e tipo de transição*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Hover é uma pseudo-classe que indica um comportamento*/
+.background-transition:hover{
+    background-color: green;
+}
